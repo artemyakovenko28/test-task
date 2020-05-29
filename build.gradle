@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.company'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    constraints {
+        testImplementation("junit:junit:4.12")
+    }
+    testImplementation("junit:junit")
+}
